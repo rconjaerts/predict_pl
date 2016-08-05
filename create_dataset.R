@@ -1,0 +1,25 @@
+# We're going to create a dataset to calculate how many goals a player will score in the following EPL 
+# season, based on performance in his career. Features we will use:
+#
+# player_name
+# competition (based on UEFA ranking)
+# season
+# team (ranking end of season)
+# position
+# age
+# minutes played, or matches played
+# amount of goals (as our continuous-valued attribute)
+
+data <- data.frame(
+   name=character(),
+   position=character(),
+   age=numeric(),
+   team=character(),
+   minutes=numeric(),
+   competition=character(),
+   season=numeric(),
+   goals=numeric(),
+   stringsAsFactors=FALSE
+)
+
+
