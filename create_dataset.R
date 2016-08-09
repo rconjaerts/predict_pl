@@ -2,12 +2,12 @@
 # season, based on performance in his career. Features we will use:
 #
 # player_name
-# competition (based on UEFA ranking)
-# season
-# team (ranking end of season)
+# DONE competition (based on points in UEFA ranking)
+# DONE season (last 5 years)
+# DONE team (ranking end of season)
 # position
 # age
-# minutes played, or matches played
+# minutes played
 # amount of goals (as our continuous-valued attribute)
 
 data <- data.frame(
@@ -21,5 +21,3 @@ data <- data.frame(
    goals=numeric(),
    stringsAsFactors=FALSE
 )
-
-
